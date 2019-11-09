@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorld.Abstractions\HelloWorld.Abstractions.csproj" />
+    <ProjectReference Include="..\HelloWorld.Cfg\HelloWorld.Cfg.csproj" />
+    <ProjectReference Include="..\HelloWorld.Cqrs\HelloWorld.Cqrs.csproj" />
+    <ProjectReference Include="..\HelloWorld.Dal\HelloWorld.Dal.csproj" />
+    <ProjectReference Include="..\HelloWorld.Models\HelloWorld.Models.csproj" />
+  </ItemGroup>
+
+</Project>
