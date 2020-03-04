@@ -1,6 +1,6 @@
 # hello-world
-_requires .netcore 3.xx_
+_requires .netcore 3+_
 
-"Hello World Programmer" is often used as a pejorative for IT newcomers. Therefore, this demo project is here to demonstrate that writing such a program is not necessarily easy as it might seem.
+Console application that outputs "Hello World!", with focus to increase code maintainability than the default Visual Studio template.
 
 There might be some naming inconsistencies, since this was written in a rush.
